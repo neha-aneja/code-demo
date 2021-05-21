@@ -14,7 +14,7 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ol className="navbar-nav ml-70 mb-2 mb-lg-0">
+      <ul className="navbar-nav ml-70 mb-2 mb-lg-0">
         <li className="nav-item">
           <NavLink className="nav-link active" aria-corrent="page" to="/">Home</NavLink>
         </li>
@@ -24,7 +24,7 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink className="nav-link" to="/about">About</NavLink>
         </li>
-      </ol>
+      </ul>
     </div>
   </div>
 </nav>
