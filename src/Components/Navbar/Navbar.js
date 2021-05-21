@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className="col-10 mx-auto">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="/">React</NavLink>
+    <NavLink className="navbar-brand" to="/">React Navbar</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -23,6 +23,9 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/about">About</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/home">Blog</NavLink>
         </li>
       </ul>
     </div>
