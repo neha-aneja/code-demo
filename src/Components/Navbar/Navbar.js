@@ -16,16 +16,13 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-70 mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+          <NavLink className="nav-link active" aria-corrent="page" to="/">Home</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/contact">Contact</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/about">About</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/home">Blog</NavLink>
         </li>
       </ul>
     </div>
