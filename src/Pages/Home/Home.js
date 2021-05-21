@@ -6,6 +6,7 @@ const Home = () => {
             <h1 className="text-center" style={{paddingTop:"30%"}}>
                 Home
             </h1>
+            <h3 className="text-center">This is the first page</h3>
         </div>
     )
 }
