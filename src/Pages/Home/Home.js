@@ -3,9 +3,10 @@ import React from 'react';
 const Home = () => {
     return (
         <div className="container">
-            <h2 className="text-center" style={{paddingTop:"30%"}}>
+            <h1 className="text-center" style={{paddingTop:"30%"}}>
                 Home
-            </h2>
+            </h1>
+            <h3 className="text-center">This is the first page</h3>
         </div>
     )
 }
