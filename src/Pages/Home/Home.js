@@ -6,6 +6,7 @@ const Home = () => {
             <h1 className="text-center" style={{paddingTop:"30%"}}>
                 Home Screen
             </h1>
+            <h2>hey</h2>
         </div>
     )
 }
