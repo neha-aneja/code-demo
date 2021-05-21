@@ -3,9 +3,9 @@ import React from 'react';
 const Home = () => {
     return (
         <div className="container">
-            <h1 className="text-center" style={{paddingTop:"30%"}}>
+            <h2 className="text-center" style={{paddingTop:"30%"}}>
                 Home
-            </h1>
+            </h2>
         </div>
     )
 }
