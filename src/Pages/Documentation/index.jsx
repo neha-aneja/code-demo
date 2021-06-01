@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-const About = () => {
+const Documentation = () => {
 
     const arr = [
         {
@@ -28,27 +28,27 @@ const About = () => {
     return (
 
         <>
-        <h1 style={{textAlign:"center"}}>Demo</h1> <br/>
-        
+            <h1 style={{ textAlign: "center" }}>Demo</h1> <br />
 
-        <div className="container">
-        <div className="row justify-content-evenly">
-        {
-        arr.map( (val) => (
-        
-            <div className="col-lg-3 col-12">
-            <Card
-                img={val.img}
-                title={val.title}
-                desc={val.desc}
-                link={val.link}
-            />
-            </div>
-        ) )
-    }
-        </div></div>
-        
+
+            <div className="container">
+                <div className="row justify-content-evenly">
+                    {
+                        arr.map((val) => (
+
+                            <div className="col-lg-3 col-12">
+                                <Card
+                                    img={val.img}
+                                    title={val.title}
+                                    desc={val.desc}
+                                    link={val.link}
+                                />
+                            </div>
+                        ))
+                    }
+                </div></div>
+
         </>
     )
 }
-export default About;
+export default Documentation;

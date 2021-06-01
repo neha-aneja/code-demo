@@ -46,10 +46,15 @@
 
 .col-1 {
     background-color: aqua;
+    height: 50%;
+    box-sizing: border-box;
+    
 }
 
 .col-2 {
     background-color: blueviolet;
+    height: 50%;
+    margin-top: 5%;
 }
 
 .grid {
@@ -64,4 +69,20 @@
 .cols {
     box-sizing: border-box;
     border-width: 1rem;
+}
+
+.form-container {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+/* .col-img {
+    height: 50px;
+    width: 50px;
+} */
+
+.btn {
+    display: inline-block;
+    border: 2px solid #3498DB;
+    border-radius: 50px;
 }
