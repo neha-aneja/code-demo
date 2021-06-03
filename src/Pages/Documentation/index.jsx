@@ -32,10 +32,10 @@ const Documentation = () => {
 
 
             <div className="container">
+            {/* <div className="wrap-mid"> */}
                 <div className="row justify-content-evenly">
                     {
                         arr.map((val) => (
-
                             <div className="col-lg-3 col-12">
                                 <Card
                                     img={val.img}
@@ -46,8 +46,9 @@ const Documentation = () => {
                             </div>
                         ))
                     }
-                </div></div>
-
+                    </div>
+                </div>
+                {/* </div> */}
         </>
     )
 }

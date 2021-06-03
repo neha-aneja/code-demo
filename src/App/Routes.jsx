@@ -6,10 +6,12 @@ import {
   Switch
 } from 'react-router-dom';
 import Home from '../Pages/Home';
-import Contact from '../Pages/Contact';
+import Topics from '../Pages/Topics';
 import Documentation from '../Pages/Documentation';
+import Contact from '../Pages/Contact';
 import Navbar from '../Layout/Components/Navbar';
 import Login from '../Pages/Login';
+import New from '../Pages/New';
 
 const Routes = () => {
   return (
@@ -17,16 +19,16 @@ const Routes = () => {
       <Navbar/>
         <main>
           <Switch>
-              {/* <Route path="/login"><Login/></Route>
+              <Route path="/login" component={Login}></Route>
               <Route exact path="/">
                 <Redirect to="/login" />
-              </Route> */}
-              <Route path="/login"><Login/></Route>
-              <Route path="/home"> <Home/> </Route>
-              <Route path="/contact"> <Contact/> </Route>
-              <Route path="/documentation"> <Documentation/> </Route>
-
-              <Redirect to = "/" />
+              </Route>
+              {/* <Route path="/login" component={Login}/> */}
+              <Route path="/home" component={Home}/> 
+              <Route path="/topics" component={Topics}/> 
+              <Route path="/documentation" component={Documentation}/> 
+              <Route path="/contact" component={Contact}/> 
+              <Route path="/new" component={New}/>
           </Switch>
         </main>
     </div>
