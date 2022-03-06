@@ -163,6 +163,7 @@
     display: inline-flex;
     align-items: center;
 }
+
 ul.ant-dropdown-menu.ant-dropdown-menu-root.ant-dropdown-menu-vertical.ant-dropdown-menu-light {
     padding: 0px;
     margin: 0px;
@@ -241,6 +242,17 @@ ul.ant-dropdown-menu.ant-dropdown-menu-root.ant-dropdown-menu-vertical.ant-dropd
     height: 500px;
     float: left;
     background-color: aliceblue;
+}
+
+.logo {
+    border: 1px solid #000;
+    width: 300px;
+    margin: 5%;
+}
+
+.cart {
+    float: right;
+    margin: 5%;
 }
 
  /* .column {

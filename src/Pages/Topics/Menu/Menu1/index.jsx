@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import Card from './Card';
+import Card from '../../Card';
 
-const Topics = () => {
+const Menu1 = () => {
 
     const [inputList, setInputList] = useState("");
     const [listElement, setListElement] = useState([]);
@@ -77,4 +77,4 @@ const Topics = () => {
         </>
     )
 }
-export default Topics;
+export default Menu1;
